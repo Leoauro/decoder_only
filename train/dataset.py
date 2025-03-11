@@ -5,8 +5,8 @@ import numpy as np
 import torch
 from torch.utils import data
 
-from decoder_only.config import config
-from decoder_only.tokenizer.tokenizer import CustomTokenizer
+from config import config
+from tokenizer.tokenizer import CustomTokenizer
 
 
 class DecoderOnlyDataset(data.Dataset):

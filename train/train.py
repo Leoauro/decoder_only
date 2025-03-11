@@ -4,9 +4,9 @@ from torch.utils.data import DataLoader
 from tqdm import tqdm
 from transformers import AdamW
 
-from decoder_only.config import config
-from decoder_only.model.model import Model
-from decoder_only.train.dataset import DecoderOnlyDataset
+from config import config
+from model.model import Model
+from dataset import DecoderOnlyDataset
 
 model = Model().cuda()
 # 获取数据集

@@ -1,7 +1,7 @@
 import torch
 from torch import nn
 
-from decoder_only.config import config
+from config import config
 
 
 class Model(nn.Module):

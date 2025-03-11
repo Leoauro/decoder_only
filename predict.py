@@ -1,8 +1,10 @@
 import torch
 
-from decoder_only.config import config
-from decoder_only.model.model import Model
-from decoder_only.tokenizer.tokenizer import CustomTokenizer
+from model.model import Model
+
+
+from config import config
+from tokenizer.tokenizer import CustomTokenizer
 
 
 def predict(decoder_only_model: Model, prompt: str):

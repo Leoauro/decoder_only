@@ -2,7 +2,7 @@ import os
 
 from tokenizers import Tokenizer
 
-from decoder_only.tokenizer.tokenizer_train import data_dir
+from tokenizer.tokenizer_train import data_dir
 
 
 class CustomTokenizer:

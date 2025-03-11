@@ -2,7 +2,7 @@ import os
 
 from tokenizers import Tokenizer, pre_tokenizers, models, trainers
 
-from decoder_only.config import config
+from config import config
 
 
 def data_dir():
